@@ -2,7 +2,7 @@ import requests
 class Github:
     def __init__(self):
         self.api_url="https://api.github.com"
-        self.token = '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'
+        self.token = 'Personal access tokens'
         
 
     def getUser(self, username):
